@@ -1,5 +1,15 @@
-// Agregar animación de entrada al desplazarse
+
+
+/**
+ * @param producto
+ */
+
 const productList = document.querySelectorAll('.product');
+
+/**
+ * @param entries
+ * @result poner visible, ejemplo documentacion
+ */
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
