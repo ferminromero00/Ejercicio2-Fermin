@@ -11,7 +11,7 @@ on:
         options:
           - deploy
           - destroy
-
+#
 jobs:
   deploy:
     if: ${{ github.event.inputs.action == 'deploy' }}
